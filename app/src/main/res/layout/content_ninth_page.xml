@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010">
+        <TextView
+            android:id="@+id/bannerRight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="#040404"/>
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/git_logo4" />
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bannerRight"
+            android:layout_alignParentRight="true"
+            android:text="GIT COMMAND"
+            android:textColor="#ff6533"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/file_repo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/banner"
+            android:paddingBottom="16sp"
+            android:paddingLeft="32sp"
+            android:text="Add file to repository"
+            android:textColor="#ff6533"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/file_repo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/file_repo"
+            android:paddingLeft="16sp"
+            android:text="The local repository consists of three trees maintained by git. The first is the working directory which holds the actual files. The second is the index which acts as a staging area and finally the HEAD which points to the last commit made"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/file_repo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/file_repo1"
+            android:paddingLeft="16sp"
+            android:text="To add all the content in the folder use the 'git add .' command"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/file_repo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/file_repo2"
+            android:paddingLeft="16sp"
+            android:text="To actually commit the message, use the 'git commit -m ''commit_message' command"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:id="@+id/imgPage9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/file_repo3"
+            android:src="@drawable/ac1"/>
+
+        <ImageButton
+            android:id="@+id/btnPage10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nextimg" />
+
+        <ImageButton
+            android:id="@+id/btnPage10Prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/btnPage10"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/previmg"/>
+    </RelativeLayout>
+</ScrollView>
+
+
+

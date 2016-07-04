@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010">
+
+        <TextView
+            android:id="@+id/bannerRight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="#040404"/>
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/git_logo4" />
+
+        <TextView
+            android:id="@+id/linux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/banner"
+            android:paddingBottom="16sp"
+            android:paddingLeft="16sp"
+            android:text="Download and Installation (Linux)"
+            android:textColor="#ff6533"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/linux1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linux"
+            android:paddingBottom="10sp"
+            android:paddingLeft="16sp"
+            android:text="Go to https://git-scm.com/downloads"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/linux2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linux1"
+            android:paddingBottom="10sp"
+            android:paddingLeft="16sp"
+            android:text="Click on Linux"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+        <TextView
+            android:id="@+id/linux3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linux2"
+            android:paddingBottom="10sp"
+            android:paddingLeft="16sp"
+            android:text="Follow the instruction on the page and type the command that corresponds to the OS that you are using."
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <ImageButton
+            android:id="@+id/btnPage4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nextimg" />
+
+        <ImageButton
+            android:id="@+id/btnPage4Prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/btnPage4"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/previmg"/>
+    </RelativeLayout>
+
+

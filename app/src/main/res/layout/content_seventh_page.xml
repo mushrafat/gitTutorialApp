@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010">
+
+        <TextView
+            android:id="@+id/bannerRight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:background="#040404"/>
+
+        <ImageView
+            android:id="@+id/banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/git_logo4" />
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/bannerRight"
+            android:layout_alignParentRight="true"
+            android:text="GIT COMMAND"
+            android:textColor="#ff6533"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/new_repo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/banner"
+            android:paddingBottom="16sp"
+            android:paddingLeft="32sp"
+            android:text="Create a new git repository"
+            android:textColor="#ff6533"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/new_repo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_repo"
+            android:paddingLeft="16sp"
+            android:text="-Type cd adn the folder name to change directory to the newly created folder"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/new_repo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_repo1"
+            android:paddingLeft="16sp"
+            android:text="-Create a new git repository in the current directory"
+            android:textColor="#ff6533"
+            android:textSize="18sp"
+            android:textStyle="italic"/>
+        <ImageView
+            android:id="@+id/imgPage7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/new_repo2"
+            android:src="@drawable/in1"/>
+
+        <ImageButton
+            android:id="@+id/btnPage8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nextimg" />
+
+        <ImageButton
+            android:id="@+id/btnPage8Prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toLeftOf="@+id/btnPage8"
+            android:background="#101010"
+            android:scaleType="centerCrop"
+            android:src="@drawable/previmg"/>
+
+
+    </RelativeLayout>
+
+
+

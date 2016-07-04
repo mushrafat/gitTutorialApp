@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010">
+
+    <TextView
+        android:id="@+id/bannerRight"
+        android:background="#040404"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:src="@drawable/git_logo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/cnlc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/banner"
+        android:paddingTop="6sp"
+        android:layout_centerHorizontal="true"
+        android:text=" "
+        android:textColor="#ff6533"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnPage12Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/btnPage12"
+        android:background="#101010"
+        android:scaleType="centerCrop"
+        android:src="@drawable/previmg"/>
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010">
+
+    <TextView
+        android:id="@+id/bannerRight"
+        android:background="#040404"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:src="@drawable/git_logo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textIntro"
+        android:text="This tutorial takes you through:"
+        android:textColor="#ff6533"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner"
+        android:paddingLeft="16sp"/>
+
+    <TextView
+        android:id="@+id/textIntro1"
+        android:text="Downloading and Installing git on windows and Linux"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIntro"
+        android:paddingLeft="16sp"
+        android:paddingBottom="16sp"/>
+    <TextView
+        android:id="@+id/textIntro2"
+        android:text="Creating a repository"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIntro1"
+        android:paddingLeft="16sp"
+        android:paddingBottom="16sp"/>
+    <TextView
+        android:id="@+id/textIntro3"
+        android:text="Uploading files using the basic git commands"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIntro2"
+        android:paddingLeft="16sp" />
+    <TextView
+        android:id="@+id/textIntro4"
+        android:text="(init, commit, add and push)"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIntro3"
+        android:paddingLeft="16sp"
+        android:paddingBottom="32sp"/>
+    <TextView
+        android:id="@+id/linkHeader"
+        android:text="links"
+        android:textAllCaps="true"
+        android:textColor="#ff6533"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textIntro4"
+        android:paddingLeft="16sp" />
+    <TextView
+        android:id="@+id/link1"
+        android:text="https://git-scm.com/downloads"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linkHeader"
+        android:paddingLeft="16sp" />
+    <TextView
+        android:id="@+id/link2"
+        android:text="https://github.com"
+        android:textColor="#ff6533"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/link1"
+        android:paddingLeft="16sp"
+        android:paddingBottom="16sp"/>
+    <TextView
+        android:id="@+id/note"
+        android:text="If your operating system is neither windows nor linux, then visit the git link to see the list of operating systems that git can be insalled on. Once you find yours, you can follow the instruction on the page to do your download and installation."
+        android:textColor="#ff6533"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/link2"
+        android:paddingLeft="16sp"
+        android:paddingBottom="16sp"/>
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/btnPage1"
+        android:src="@drawable/nextimg"
+        android:scaleType="centerCrop"
+        android:background="#101010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</ScrollView>
+
+

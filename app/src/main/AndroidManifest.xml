@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.learngit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".firstPage"
+            android:label="@string/title_activity_first_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".secondPage"
+            android:label="@string/title_activity_second_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".thirdPage"
+            android:label="@string/title_activity_third_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fourthPage"
+            android:label="@string/title_activity_fourth_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fifthPage"
+            android:label="@string/title_activity_fifth_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sixthPage"
+            android:label="@string/title_activity_sixth_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".seventhPage"
+            android:label="@string/title_activity_seventh_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eightPage"
+            android:label="@string/title_activity_eight_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ninthPage"
+            android:label="@string/title_activity_ninth_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tenthPage"
+            android:label="@string/title_activity_tenth_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".eleventhPage"
+            android:label="@string/title_activity_eleventh_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".twelfthPage"
+            android:label="@string/title_activity_twelfth_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

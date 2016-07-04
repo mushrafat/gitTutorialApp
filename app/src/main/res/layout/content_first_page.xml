@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010">
+
+    <TextView
+        android:id="@+id/bannerRight"
+        android:background="#040404"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:src="@drawable/git_logo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/firstPara"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner"
+        android:textColor="#ff6533"
+        android:text="Git is version control system that is used for software development and other version control tasks. As a distributed revision control system, it is aimed at speed, data integrity and support for distributed non-linear workflows." />
+
+    <TextView
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstPara"
+        android:textColor="#ff6533"
+        android:text="Git was created by Linus Torvalds in 2005 for development of the Linux kernel with other kernel developers contributing to it's initial development"/>
+
+    <ImageButton
+        android:id="@+id/btnPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nextimg"
+        android:scaleType="centerCrop"
+        android:background="#101010"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/btnPage2Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/previmg"
+        android:scaleType="centerCrop"
+        android:background="#101010"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/btnPage2"/>
+
+</RelativeLayout>
